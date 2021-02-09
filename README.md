@@ -11,9 +11,9 @@ Solutin is done. There are docker files and docker build script. Check instructi
 ### Microservice
 Solution is not done yet. You could run apis separately. There are docker files for the services but not docker build script.
 
--  [Authentication(Java,Spring boot)](https://github.com/ilkinabdullayev/marcopolo-learning-tasks/task1/microservice/marcopololearning-auth-api)
--  [Product-API(NodeJS)](https://github.com/ilkinabdullayev/marcopolo-learning-tasks/task1/microservice/product-api)
+-  [Authentication(Java,Spring boot)](https://github.com/ilkinabdullayev/marcopolo-learning-tasks/tree/master/task1/microservice/marcopololearning-auth-api)
+-  [Product-API(NodeJS)](https://github.com/ilkinabdullayev/marcopolo-learning-tasks/tree/master/task1/microservice/product-api)
 
 
 ## Task 2
--  [Tasks2](https://github.com/ilkinabdullayev/marcopolo-learning-tasks/task2)
+-  [Tasks2](https://github.com/ilkinabdullayev/marcopolo-learning-tasks/tree/master/task2)
