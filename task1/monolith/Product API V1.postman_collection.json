@@ -1,0 +1,224 @@
+{
+	"info": {
+		"_postman_id": "9ad5f8ad-06e3-4599-81f6-ed34b78ec9f1",
+		"name": "Product API V1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"test\",\r\n    \"password\": \"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/auth/login",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-product-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWY4YzkwZTNmOTI1YzEyYjdkY2E3MDEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MTI4NTczMzB9.SyPPPemSEaNy__De5UMhzgqoDaWYEwo-G8_NWDBeh54",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/api/auth/logout",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"logout"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List products",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-product-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWY4Yzk0NjNmOTI1YzEyYjdkY2E3MDQiLCJyb2xlIjoidXNlciIsImlhdCI6MTYxMjg1NzE5OX0.SeYuRzvlN8N28HNh5H4to4uxGBYD8IzZyk-hTbtshLU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/api/products",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product by Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-product-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWY4Yzk0NjNmOTI1YzEyYjdkY2E3MDQiLCJyb2xlIjoidXNlciIsImlhdCI6MTYxMjg1NzE5OX0.SeYuRzvlN8N28HNh5H4to4uxGBYD8IzZyk-hTbtshLU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/api/products/60224021244eac24e00238b8",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products",
+						"60224021244eac24e00238b8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-product-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWY4YzkwZTNmOTI1YzEyYjdkY2E3MDEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MTI4NTczMzB9.SyPPPemSEaNy__De5UMhzgqoDaWYEwo-G8_NWDBeh54",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Test Test 22\",\r\n    \"description\": \"Test Test Test\",\r\n    \"image_url\": \"https://picsum.photos/id/237/200/300\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/products",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete product",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-product-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWY4YzkwZTNmOTI1YzEyYjdkY2E3MDEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MTI4NTczMzB9.SyPPPemSEaNy__De5UMhzgqoDaWYEwo-G8_NWDBeh54",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/api/products/6022400c244eac24e00238b7",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products",
+						"6022400c244eac24e00238b7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update product",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-product-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWY4YzkwZTNmOTI1YzEyYjdkY2E3MDEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MTI4NTczMzB9.SyPPPemSEaNy__De5UMhzgqoDaWYEwo-G8_NWDBeh54",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Test Test 44\",\r\n    \"description\": \"Test Test Test\",\r\n    \"image_url\": \"https://picsum.photos/id/237/200/300\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/products/60224021244eac24e00238b8",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products",
+						"60224021244eac24e00238b8"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

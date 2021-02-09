@@ -1,0 +1,10 @@
+{
+    "mongo" : {
+        "database": "MONGO_DB",
+        "port": "MONGO_PORT",
+        "host": "MONGO_HOST"
+    },
+    "authentication" : {
+        "url" : "AUTHENTICATION_SERVER"
+    }
+}

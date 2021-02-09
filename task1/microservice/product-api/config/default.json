@@ -1,0 +1,13 @@
+{
+    "mongo" : {
+        "username": "admin",
+        "password": "admin",
+        "database": "product",
+        "authDB": "admin",
+        "port": 27017,
+        "host": "localhost"
+    },
+    "authentication" : {
+        "url" : "http://localhost:8081/v1/auth"
+    }
+}

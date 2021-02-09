@@ -1,0 +1,24 @@
+server:
+  port: 8081
+
+jwt:
+  secret: jwt_local_private_key
+  token:
+    validitySeconds: 86400 # 24 hours only for local development
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: admin
+      password: admin
+      database: user
+      port: 27018
+      host: localhost
+
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG

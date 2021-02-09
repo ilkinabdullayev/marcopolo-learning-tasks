@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "60205e8dc1be1bfef581043c"
+  },
+  "title": "Product 1",
+  "description": "Great product 1",
+  "image_url": "https://picsum.photos/id/1/200/300",
+  "created_by": "test",
+  "createdAt": {
+    "$date": "2020-02-01T20:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60205f70c1be1bfef581043d"
+  },
+  "title": "Product 2",
+  "description": "Great product 2",
+  "image_url": "https://picsum.photos/id/2/200/300",
+  "created_by": "test3",
+  "createdAt": {
+    "$date": "2020-03-01T20:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60205f98c1be1bfef581043f"
+  },
+  "title": "Product 3",
+  "description": "Great product 3",
+  "image_url": "https://picsum.photos/id/3/200/300",
+  "created_by": "test4",
+  "createdAt": {
+    "$date": "2020-04-01T20:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60205fadc1be1bfef5810440"
+  },
+  "title": "Product 4",
+  "description": "Great product 4",
+  "image_url": "https://picsum.photos/id/4/200/300",
+  "created_by": "test4",
+  "createdAt": {
+    "$date": "2010-03-01T20:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60205fc3c1be1bfef5810441"
+  },
+  "title": "Product 5",
+  "description": "Great product 5",
+  "image_url": "https://picsum.photos/id/5/200/300",
+  "created_by": "test",
+  "createdAt": {
+    "$date": "2020-07-01T20:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60205fcdc1be1bfef5810442"
+  },
+  "title": "Product 6",
+  "description": "Great product 6",
+  "image_url": "https://picsum.photos/id/6/200/300",
+  "created_by": "test",
+  "createdAt": {
+    "$date": "2020-07-04T20:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60205fd6c1be1bfef5810443"
+  },
+  "title": "Product 7",
+  "description": "Great product 7",
+  "image_url": "https://picsum.photos/id/7/200/300",
+  "created_by": "test3",
+  "createdAt": {
+    "$date": "2020-07-05T20:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60205fe1c1be1bfef5810444"
+  },
+  "title": "Product 8",
+  "description": "Great product 8",
+  "image_url": "https://picsum.photos/id/8/200/300",
+  "created_by": "test3",
+  "createdAt": {
+    "$date": "2020-07-15T20:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60205feac1be1bfef5810445"
+  },
+  "title": "Product 9",
+  "description": "Great product 9",
+  "image_url": "https://picsum.photos/id/9/200/300",
+  "created_by": "test3",
+  "createdAt": {
+    "$date": "2020-07-25T20:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "60205ff3c1be1bfef5810446"
+  },
+  "title": "Product 10",
+  "description": "Great product 10",
+  "image_url": "https://picsum.photos/id/10/200/300",
+  "created_by": "test3",
+  "createdAt": {
+    "$date": "2020-03-05T20:00:00Z"
+  }
+}]

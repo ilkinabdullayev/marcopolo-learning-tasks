@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      authentication-database: ${MONGO_AUTH_DB}
+      username: ${MONGO_USERNAME}
+      password: ${MONGO_PASSWORD}
+      database: ${MONGO_DB}
+      port: ${MONGO_PORT}
+      host: ${MONGO_HOST}
+
+jwt:
+  secret: ${JWT_PRIVATE_KEY}
+  token:
+    validitySeconds: ${jwt.validity.seconds:300}
+
